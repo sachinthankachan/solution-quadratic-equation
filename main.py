@@ -16,13 +16,12 @@ if a==0:
 print("quadratic equation is "+Fore.YELLOW+str(a)+"x²+"+str(b)+"x+"+str(c),"= 0")
 print(Fore.WHITE)
 
-#calculation
+#calculation of discriminant
 D=(b*b)-4*a*c
 sqrtcalc=cmath.sqrt(int(D))
 
-#roots
+#calculating roots
 x1=(-b+sqrtcalc)/2*a
 x2=(-b-sqrtcalc)/2*a
 print("roots are "+Fore.RED+str(x1)+Fore.WHITE+" and "+Fore.RED+str(x2))
-print(Fore.GREEN+"*j=√-1(complex number)")
 
