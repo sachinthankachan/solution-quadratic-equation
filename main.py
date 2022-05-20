@@ -25,3 +25,4 @@ x1=(-b+sqrtcalc)/2*a
 x2=(-b-sqrtcalc)/2*a
 print("roots are "+Fore.RED+str(x1)+Fore.WHITE+" and "+Fore.RED+str(x2))
 
+
